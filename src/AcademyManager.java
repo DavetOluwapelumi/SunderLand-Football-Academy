@@ -2,6 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class AcademyManager {
+    //Field
     private Map<Integer, Footballer> footballers;
 
     public AcademyManager() {
@@ -13,13 +14,13 @@ public class AcademyManager {
     public void registerFootballer(Footballer f) {
         if (f == null){
             System.out.println("Cannot register null footballer");
-            return; // stop execution
-        }
+            return;
+         }
 
 
         if (footballers.containsKey(f.getId())){
             System.out.println("Registration failed: Footballer with ID " + f.getId() + " already exists.");
-            return; // stop execution
+            return;
         }
 
         footballers.put(f.getId(), f);
@@ -27,7 +28,7 @@ public class AcademyManager {
     }
 
 
-    // Removing
+    // Removing a footballer with ID
     public void removeFootballer(int id) {
         if (!footballers.containsKey(id)) {
             System.out.println("Cannot remove: No footballer found with ID " + id);
@@ -50,7 +51,7 @@ public class AcademyManager {
         }
     }
 
-    // 6. Method to check existence
+    //  Method to check existence
     public boolean footballerExists(int id) {
         return footballers.containsKey(id);
     }

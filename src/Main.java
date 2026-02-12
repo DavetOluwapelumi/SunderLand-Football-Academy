@@ -2,8 +2,8 @@ public class Main{
     public static void main(String[] args) {
         AcademyManager academy = new AcademyManager();
         Footballer f1 = new Footballer(1, "David", 20, "Midfielder");
-        Footballer f2 = new Footballer(2, "John", 19, "Forward");
-        Footballer f3 = new Footballer(3, "Alex", 21, "Defender");
+        Footballer f2 = new Footballer(2, "Bayo", 19, "Forward");
+        Footballer f3 = new Footballer(3, "Sayo", 21, "Defender");
 
         // Register footballers
         academy.registerFootballer(f1);

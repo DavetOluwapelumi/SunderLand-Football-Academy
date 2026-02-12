@@ -120,20 +120,20 @@ java Main
 
 ```
 Footballer registered successfully: David
-Footballer registered successfully: John
-Footballer registered successfully: Alex
+Footballer registered successfully: Bayo
+Footballer registered successfully: Sayo
 Registration failed: Footballer with ID 1 already exists.
-
 Registered Footballers:
 ID: 1, Name: David, Age: 20, Position: Midfielder
-ID: 2, Name: John, Age: 19, Position: Forward
-ID: 3, Name: Alex, Age: 21, Position: Defender
-
+ID: 2, Name: Bayo, Age: 19, Position: Forward
+ID: 3, Name: Sayo, Age: 21, Position: Defender
 Does ID 2 exist? true
 Does ID 4 exist? false
-
-Footballer removed successfully: John
+Footballer removed successfully: Bayo
 Cannot remove: No footballer found with ID 4
+Registered Footballers:
+ID: 1, Name: David, Age: 20, Position: Midfielder
+ID: 3, Name: Sayo, Age: 21, Position: Defender
 ```
 
 ---
